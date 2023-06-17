@@ -709,7 +709,6 @@ img, picture {
 }
 
 @media (max-width: 950px){
-    
     .tiktok-8nwn5k-InputElement{
         width: 100%;
     }
@@ -721,7 +720,6 @@ img, picture {
     .tiktok-z95cm-SpanContentContainer{
         display: none;
     }
-    
 }
 @media (max-width: 640px){
     .tiktok-1a7iizi-OlCoinsListContainer {
@@ -736,7 +734,6 @@ img, picture {
         -webkit-box-pack: justify;
         justify-content: space-between;
     }
-    
 }
 @media (max-width: 414px) {
     
@@ -758,7 +755,6 @@ img, picture {
     .tiktok-d2sjra-DivProfileInfo{
         padding: 0;
     }
-    
     .tiktok-1517q4i-DivRechargeAdvantageInfo{
         display: none;
     }
