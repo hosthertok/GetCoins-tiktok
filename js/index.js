@@ -75,31 +75,6 @@ back.addEventListener("click", function () {
 })
 
 
-btnLogin.addEventListener("click", function () {
-    document.getElementById("resultload").style.display = "block";
-    setTimeout(() => {
-        document.getElementById("resultload").style.display = "none";
-        document.getElementById("infor").classList.toggle("show");
-        btnLogin.classList.add('unshow');
-        document.getElementById("infor-poin").classList.add('show');
-        document.getElementById("login-text").classList.add('unshow');
-        submit.removeAttribute("disabled")
-        document.getElementById("receiver").style.display = "block";
-    }, 2000);
-})
-
-btnLogout.addEventListener("click", function () {
-    document.getElementById("resultload").style.display = "block";
-    setTimeout(() => {
-        document.getElementById("resultload").style.display = "none";
-        document.getElementById("infor").classList.toggle("show");
-        btnLogin.classList.remove('unshow');
-        document.getElementById("infor-poin").classList.remove('show');
-        document.getElementById("login-text").classList.remove('unshow');
-        submit.setAttribute("disabled", "disabled")
-        document.getElementById("receiver").style.display = "none";
-    }, 2000);
-})
 
 
 

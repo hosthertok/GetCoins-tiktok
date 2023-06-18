@@ -1,4 +1,5 @@
 body {
+    
     font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
     font-size: 14px;
     color: rgb(22, 24, 35);
@@ -27,9 +28,7 @@ img, picture {
     max-width: 100%;
     display: block;
 }
-.menu{
-    display: none;
-}
+
 
 .tiktok-t31vku-MainLiveLayoutContainer{
     width: 100%;
@@ -70,6 +69,12 @@ img, picture {
 }
 .tiktok-1x100u9-DivHeaderCenterContainer {
     position: relative;
+}
+.tiktok-y3rt08-SpanUploadText{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
 }
 .tiktok-1asq5wp-DivSearchFormContainer{
     position: relative;
@@ -256,12 +261,8 @@ img, picture {
     align-items: stretch;
     gap: 8px;
 }
-.infor{
-    display: flex;
-}
-.poin{
-    display: none;
-}
+
+
 .login-text{
     margin: 10px ;
     font-size: 20px;
@@ -662,9 +663,7 @@ img, picture {
 .unshow{
     display: none;
 }
-.receiver{
-    display: none;
-}
+
 .others{
     /* display: none; */
     border-radius: 5px;
@@ -707,6 +706,11 @@ img, picture {
         inset-inline-end: calc(50% - 555px);
     }
 }
+@media (max-width: 1000px){
+    .tiktok-8nwn5k-InputElement{
+        width: 100%;
+    }
+}
 
 @media (max-width: 950px){
     .tiktok-8nwn5k-InputElement{
@@ -734,13 +738,59 @@ img, picture {
         -webkit-box-pack: justify;
         justify-content: space-between;
     }
+    .tiktok-1qup28j-DivUpload{
+        padding: 0;
+    }
+}
+@media (max-width: 494px){
+    .tiktok-1b4xcc5-DivHeaderInboxContainer {
+        display: none;
+    }
+    .tiktok-y48l9g-StyledIcon{
+        display: none;
+    }
+    .tiktok-1ibfxbr-DivMessageIconContainer{
+        display: none;
+    }
+    .tiktok-1qup28j-DivUpload {
+        min-width: 80px;
+        margin-left: 10px;
+    }
+    .tiktok-1gd9bb4-DivHeaderWrapperMain {
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -webkit-box-align: center;
+        align-items: center;
+        app-region: drag;
+        max-width: 1150px;
+        padding-right: 24px;
+        padding-left: 20px;
+        justify-content: space-around;
+    }
+    .tiktok-lp888x-DivContentContainer {
+        box-sizing: border-box;
+        width: calc(100% - 144px);
+        min-width: 365px;
+        height: 100%;
+        border-radius: 8px;
+        padding: 32px 0px;
+    }
 }
 @media (max-width: 414px) {
     
     .tiktok-1x100u9-DivHeaderCenterContainer{
         display: none;
     }
-    .Notification{
+    .tiktok-1b4xcc5-DivHeaderInboxContainer {
+        display: none;
+    }
+    .tiktok-y48l9g-StyledIcon{
+        display: none;
+    }
+    .tiktok-1ibfxbr-DivMessageIconContainer{
         display: none;
     }
     .tiktok-1qup28j-DivUpload {
