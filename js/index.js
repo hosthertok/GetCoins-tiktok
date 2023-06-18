@@ -33,10 +33,9 @@ for (let i = 1; i < 9; i++) {
                     alert("Vui lòng chỉ nhập số!");
                     return;
                 }
-                var result = parseInt(inputValue) * 274;
-                var total = result / 23500;
-                document.getElementById("total-money").innerHTML = "$" + total.toFixed(2);
-                document.getElementById("money").innerHTML = "$" + total.toFixed(2);
+                var result = parseInt(inputValue) * 0.0106;
+                document.getElementById("total-money").innerHTML = "$" + result.toFixed(2);
+                document.getElementById("money").innerHTML = "$" + result.toFixed(2);
                 document.getElementById("text-coin-result").innerHTML = inputValue;
                 if (inputValue == "") {
                     document.getElementById("total-money").innerHTML = 0;
