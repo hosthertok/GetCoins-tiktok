@@ -1,3 +1,57 @@
+:root {
+    --tux-fontFamilyHeading: 'TikTokDisplayFont', Arial, Tahoma, PingFangSC, sans-serif;
+    --tux-fontFamilyParagraph: 'TikTokFont', Arial, Tahoma, PingFangSC, sans-serif;
+    --tux-fontWeightRegular: 400;
+    --tux-fontWeightSemibold: 500;
+    --tux-fontWeightBold: 700;
+    --tux-fontSizeH1: 96px;
+    --tux-fontSizeH2: 72px;
+    --tux-fontSizeH3: 56px;
+    --tux-fontSizeH4: 48px;
+    --tux-fontSizeH5: 32px;
+    --tux-fontSizeH6: 24px;
+    --tux-fontSizeH7: 18px;
+    --tux-fontSizeP1: 24px;
+    --tux-fontSizeP2: 18px;
+    --tux-fontSizeP3: 16px;
+    --tux-fontSizeP4: 14px;
+    --tux-fontSizeP5: 12px;
+}
+:root {
+    --tux-colorPositive: rgba(11, 224, 155, 1);
+    --tux-colorNegative: rgba(255, 76, 58, 1);
+    --tux-colorToastDefault: rgba(84, 84, 84, 0.92);
+    --tux-colorToastNegative: rgba(255, 76, 58, 0.92);
+    --tux-colorSecondary: rgba(32, 213, 236, 1);
+    --tux-colorSecondary2: rgba(16, 162, 197, 1);
+    --tux-colorPositive2: rgba(79, 171, 126, 1);
+    --tux-colorConstTextInverse: rgba(255, 255, 255, 1);
+    --tux-colorConstTextInverse2: rgba(255, 255, 255, 0.9);
+    --tux-colorConstTextInverse3: rgba(255, 255, 255, 0.75);
+    --tux-colorConstTextInverse4: rgba(255, 255, 255, 0.5);
+    --tux-colorConstTextInverse5: rgba(255, 255, 255, 0.34);
+    --tux-colorConstTextPrimary: rgba(22, 24, 35, 1);
+    --tux-colorConstBGInverse: rgba(0, 0, 0, 1);
+    --tux-colorConstBGInverse2: rgba(0, 0, 0, 0.6);
+    --tux-colorConstBGInverse3: rgba(37, 37, 37, 0.6);
+    --tux-colorConstBGInverse4: rgba(84, 84, 84, 0.5);
+    --tux-colorBGCreation: rgba(0, 0, 0, 1);
+    --tux-colorBGCreation2: rgba(27, 27, 27, 1);
+    --tux-colorBGCreation5: rgba(0, 0, 0, 0.15);
+    --tux-colorConstBGMat: rgba(255, 255, 255, 0.2);
+    --tux-colorConstBGContainer: rgba(255, 255, 255, 0.12);
+    --tux-colorConstBGContainer2: rgba(255, 255, 255, 0.08);
+    --tux-colorConstBGContainer3: rgba(255, 255, 255, 0.04);
+    --tux-colorConstBGPlaceholderOpaque: rgba(241, 241, 241, 1);
+    --tux-colorConstBGInverseOpaque: rgba(37, 37, 37, 1);
+    --tux-colorConstBGInverse1: rgba(56, 56, 56, 0.95);
+    --tux-colorConstLineInverse: rgba(255, 255, 255, 0.2);
+    --tux-colorConstLineInverse2: rgba(255, 255, 255, 0.12);
+    --tux-colorSDPrimary: rgba(0, 0, 0, 0.8);
+    --tux-gradientLive: linear-gradient(131.17deg, #ff1764 0%, #ed3495 94.15%);
+    --tux-gradientVideoCoverOverlay: linear-gradient( 180deg, rgba(22, 24, 35, 0.0001) 2.92%, rgba(22, 24, 35, 0.5) 98.99% );
+    --tux-colorAssistColorYellow: rgba(250, 206, 21, 1);
+}
 body {
     
     font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
@@ -10,6 +64,125 @@ body {
     min-height: 100vh;
     text-rendering: optimizespeed;
     line-height: 1.5;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-border: rgb(var(--gray-3));
+    --color-bg-popup: var(--color-bg-5);
+    --color-bg-1: #fff;
+    --color-bg-2: #fff;
+    --color-bg-3: #fff;
+    --color-bg-4: #fff;
+    --color-bg-5: #fff;
+    --color-bg-white: #fff;
+    --color-neutral-1: rgb(var(--gray-1));
+    --color-neutral-2: rgb(var(--gray-2));
+    --color-neutral-3: rgb(var(--gray-3));
+    --color-neutral-4: rgb(var(--gray-4));
+    --color-neutral-5: rgb(var(--gray-5));
+    --color-neutral-6: rgb(var(--gray-6));
+    --color-neutral-7: rgb(var(--gray-7));
+    --color-neutral-8: rgb(var(--gray-8));
+    --color-neutral-9: rgb(var(--gray-9));
+    --color-neutral-10: rgb(var(--gray-10));
+    --color-text-1: var(--color-neutral-10);
+    --color-text-2: var(--color-neutral-8);
+    --color-text-3: var(--color-neutral-6);
+    --color-text-4: var(--color-neutral-4);
+    --color-border-1: var(--color-neutral-2);
+    --color-border-2: var(--color-neutral-3);
+    --color-border-3: var(--color-neutral-4);
+    --color-border-4: var(--color-neutral-6);
+    --color-fill-1: var(--color-neutral-1);
+    --color-fill-2: var(--color-neutral-2);
+    --color-fill-3: var(--color-neutral-3);
+    --color-fill-4: var(--color-neutral-4);
+    --color-primary-light-1: rgb(var(--primary-1));
+    --color-primary-light-2: rgb(var(--primary-2));
+    --color-primary-light-3: rgb(var(--primary-3));
+    --color-primary-light-4: rgb(var(--primary-4));
+    --color-secondary: var(--color-neutral-2);
+    --color-secondary-hover: var(--color-neutral-3);
+    --color-secondary-active: var(--color-neutral-4);
+    --color-secondary-disabled: var(--color-neutral-1);
+    --color-danger-light-1: rgb(var(--danger-1));
+    --color-danger-light-2: rgb(var(--danger-2));
+    --color-danger-light-3: rgb(var(--danger-3));
+    --color-danger-light-4: rgb(var(--danger-4));
+    --color-success-light-1: rgb(var(--success-1));
+    --color-success-light-2: rgb(var(--success-2));
+    --color-success-light-3: rgb(var(--success-3));
+    --color-success-light-4: rgb(var(--success-4));
+    --color-warning-light-1: rgb(var(--warning-1));
+    --color-warning-light-2: rgb(var(--warning-2));
+    --color-warning-light-3: rgb(var(--warning-3));
+    --color-warning-light-4: rgb(var(--warning-4));
+    --color-link-light-1: rgb(var(--link-1));
+    --color-link-light-2: rgb(var(--link-2));
+    --color-link-light-3: rgb(var(--link-3));
+    --color-link-light-4: rgb(var(--link-4));
+    --border-radius-none: 0;
+    --border-radius-small: 2px;
+    --border-radius-medium: 4px;
+    --border-radius-large: 8px;
+    --border-radius-circle: 50%;
+    --color-tooltip-bg: rgb(var(--gray-10));
+    --color-spin-layer-bg: rgba(255, 255, 255, 0.6);
+    --color-menu-dark-bg: #232324;
+    --color-menu-light-bg: #ffffff;
+    --color-menu-dark-hover: rgba(255, 255, 255, 0.04);
+    --color-mask-bg: rgba(29, 33, 41, 0.6);
+}
+body {
+    --red-1: 255,236,232;
+    --red-2: 253,205,197;
+    --red-3: 251,172,163;
+    --red-4: 249,137,129;
+    --red-5: 247,101,96;
+    --red-6: 245,63,63;
+    --red-7: 203,39,45;
+    --red-8: 161,21,30;
+    --red-9: 119,8,19;
+    --red-10: 77,0,10;
+    --orangered-1: 255,243,232;
+    --orangered-2: 253,221,195;
+    --orangered-3: 252,197,159;
+    --orangered-4: 250,172,123;
+    --orangered-5: 249,144,87;
+    --orangered-6: 247,114,52;
+    --orangered-7: 204,81,32;
+    --orangered-8: 162,53,17;
+    --orangered-9: 119,31,6;
+    --orangered-10: 77,14,0;
+    --orange-1: 255,247,232;
+    --orange-2: 255,228,186;
+    --orange-3: 255,207,139;
+    --orange-4: 255,182,93;
+    --orange-5: 255,154,46;
+    --orange-6: 255,125,0;
+    --orange-7: 210,95,0;
+    --orange-8: 166,69,0;
+    --orange-9: 121,46,0;
+    --orange-10: 77,27,0;
+    --gold-1: 255,252,232;
+    --gold-2: 253,244,191;
+    --gold-3: 252,233,150;
+    --gold-4: 250,220,109;
+    --gold-5: 249,204,69;
+    --gold-6: 247,186,30;
+    --gold-7: 204,146,19;
+    --gold-8: 162,109,10;
+    --gold-9: 119,75,4;
+    --gold-10: 77,45,0;
+    --yellow-1: 254,255,232;
+    --yellow-2: 254,254,190;
+    --yellow-3: 253,250,148;
+    --yellow-4: 252,242,107;
+    --yellow-5: 251,232,66;
+    --yellow-6: 250,220,25;
+    --yellow-7: 207,175,15;
+    --yellow-8: 163,132,8;
+    --yellow-9: 120,93,3;
+    --yellow-10: 77,56,0;
 }
 body a{
     color: rgb(22, 24, 35);
@@ -205,6 +378,13 @@ img, picture {
     border-radius: 50%;
     cursor: pointer;
 }
+.tiktok-5izt7k-SpanProfileUsername {
+    /* font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif; */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-inline-start: 8px;
+}
 .tiktok-1qjl7qr-DivMainContainer {
     width: 100%;
     display: flex;
@@ -216,6 +396,31 @@ img, picture {
     align-items: center;
     padding: 24px 0px;
     position: relative;
+}
+.tiktok-1b0yaet-DivOrderSummaryContent {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    font-size: 14px;
+    color: rgba(22, 24, 35, 0.75);
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+}
+.tiktok-oadu89-DivOrderSummaryContent {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    font-size: 16px;
+    color: rgb(22, 24, 35);
+    font-weight: 700;
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
 }
 .tiktok-lp888x-DivContentContainer {
     box-sizing: border-box;
@@ -686,6 +891,831 @@ img, picture {
 }
 .Notification{
     display: flex;
+}
+.tiktok-1dw2wty-DivCenterWrapper {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.tiktok-it2bln-DivContentContainer {
+    position: relative;
+    border-radius: 8px;
+    margin: auto;
+    transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    transform: none;
+    background-color: rgb(255, 255, 255);
+    max-height: 90%;
+    overflow: auto;
+}
+.tiktok-mzpspd-DivCashierPage {
+    width: 100%;
+    min-width: 800px;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.payload{
+    display: none;
+}
+.tiktok-py8jux-DivModalContainer {
+    position: fixed;
+    inset: 0px;
+    z-index: 1001;
+    overflow: auto;
+    outline: 0px;
+    transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    display: flex;
+    opacity: 1;
+}.tiktok-py8jux-DivModalContainer {
+    position: fixed;
+    inset: 0px;
+    z-index: 1001;
+    overflow: auto;
+    outline: 0px;
+    transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    display: flex;
+    opacity: 1;
+}
+.tiktok-1pe9af7-DivCashierContainer {
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 880px;
+    min-width: 700px;
+    padding: 24px 24px 0px;
+    border-radius: 4px;
+    position: relative;
+}
+.tiktok-1ovc93r-HeaderOrderSummaryTitle {
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(22, 24, 35);
+    font-weight: 700;
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px -24px;
+    padding: 0px 24px 24px;
+    border-bottom: 0.5px solid rgba(22, 24, 35, 0.2);
+}
+.tiktok-v2a75e-DivModalMask {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0px;
+}
+.tiktok-197anyc-DivProfileRow {
+    height: 68px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(238, 238, 240);
+}
+.tiktok-2xi6jj-SpanProfileDescription {
+    color: rgb(22, 24, 35);
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 18px;
+}
+.tiktok-q8zfnj-DivOrderDetails {
+    padding: 14px 0px;
+    border-bottom: 1px solid rgb(238, 238, 240);
+}
+.tiktok-qov981-DivLoadingWrapper {
+    width: 100%;
+    height: 100%;
+}
+.tiktok-1eyyzw7-DivCardActionsContainer {
+    position: relative;
+    display: flex;
+    height: 20px;
+    top: 12px;
+    z-index: 99;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+.tiktok-1dpzqeb-Button-StyledCardManageBtn {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 14px;
+    margin-right: 0px;
+    margin-left: auto;
+    background: 0px 0px;
+    border-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+    height: 24px;
+    line-height: 24px;
+    width: auto;
+    min-width: auto;
+    min-height: auto;
+    position: relative;
+    top: 8px;
+    right: 0px;
+    font-weight: bold;
+    color: rgb(254, 44, 85);
+}
+.pc-payment-header {
+    padding: 32px 34px;
+    border-radius: 4px;
+    background-color: var(--pipo-pc-color-bg-primary);
+}
+.pipo .arco-row-justify-center {
+    justify-content: center;
+}
+.pipo .arco-row-align-center {
+    align-items: center;
+}
+.pipo * {
+    outline: none;
+}
+.pipo .arco-statistic {
+    display: inline-block;
+    line-height: 1.5715;
+    color: var(--color-text-2);
+}
+.pipo .arco-statistic-content .arco-statistic-value {
+    white-space: nowrap;
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--color-text-1);
+}
+.pipo .arco-row-justify-space-between {
+    justify-content: space-between;
+}
+.pipo .arco-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+.arco-row-justify-space-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.pc-payment-item-content {
+    align-content: center;
+    padding: 18px 18px 18px 15px;
+}
+.pc-payment-header-divider {
+    margin-top: 23px;
+    height: 1px;
+    background-color: var(--pipo-pc-color-bg-primary-border);
+}
+.pc-payment-list {
+    padding: 0 40px;
+    border-radius: 4px;
+    background-color: var(--pipo-pc-color-bg-primary);
+}
+.pc-payment-item {
+    line-height: 1.5;
+}
+.pc-payment-list-bottom {
+    margin-bottom: 24px;
+}
+.pc-payment-item {
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.pc-payment-list-title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    font-weight: var(--pipo-pc-font-weight-label);
+    font-size: 15px;
+    opacity: .9;
+}
+.pipo-pc.pc-payment .pc-payment-list-title {
+    margin-bottom: 14px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(22, 24, 35);
+    font-weight: 700;
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+}
+.arco-row-justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.arco-row-align-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.arco-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+.pc-payment-item-left {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.pc-payment-item-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 20px;
+}
+.pipo img {
+    border-style: none;
+}
+.ml-6 {
+    margin-left: 6px;
+}
+.pc-payment-item-right-img {
+    width: 32px;
+    height: 20px;
+}
+.pc-payment-item .arco-radio {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 16px;
+}
+.pipo .arco-radio {
+    position: relative;
+    cursor: pointer;
+    padding-left: 5px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: unset;
+}
+.pipo button, .pipo input {
+    overflow: visible;
+}
+.pipo button, .pipo input, .pipo optgroup, .pipo select, .pipo textarea {
+    line-height: 1.15;
+    margin: 0;
+}
+.pipo .arco-radio>input[type=radio], .pipo .arco-radio-button>input[type=radio] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.arco-radio-button>input[type=radio], .arco-radio>input[type=radio] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pipo .arco-radio-mask {
+    display: block;
+    border: 2px solid var(--color-neutral-3);
+    box-sizing: border-box;
+    height: 14px;
+    width: 14px;
+    border-radius: var(--border-radius-circle);
+    position: relative;
+    line-height: 14px;
+}
+.pipo-pc.pc-payment .pc-payment-item-label {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(22, 24, 35);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+}
+.pc-payment-item-tag {
+    display: flex;
+    align-items: center;
+}
+.pipo .arco-icon-hover:before {
+    content: "";
+    position: absolute;
+    display: block;
+    border-radius: var(--border-radius-circle);
+    background-color: transparent;
+    box-sizing: border-box;
+    transition: background-color .1s cubic-bezier(0,0,1,1);
+}
+.pipo.pipo-pc .arco-radio-mask, .pipo[arco-theme=dark].pipo-pc .arco-radio-mask, .pipo .pipo-pc-voucher .arco-radio-mask, .pipo[arco-theme=dark] .pipo-pc-voucher .arco-radio-mask, .pipo .arco-modal .arco-radio-mask, .pipo[arco-theme=dark] .arco-modal .arco-radio-mask, .pipo.pipo-pc .arco-checkbox-mask, .pipo[arco-theme=dark].pipo-pc .arco-checkbox-mask, .pipo .pipo-pc-voucher .arco-checkbox-mask, .pipo[arco-theme=dark] .pipo-pc-voucher .arco-checkbox-mask, .pipo .arco-modal .arco-checkbox-mask, .pipo[arco-theme=dark] .arco-modal .arco-checkbox-mask {
+    border: 2px solid #ccc;
+    background: #ccc;
+}
+.pc-payment-item.pc-payment-item-selected {
+    border-color: rgb(238, 238, 240) !important;
+}
+.pc-payment-item-selected {
+    border-color: var(--pipo-pc-color-primary);
+    cursor: unset;
+}
+.pc-payment-item {
+    margin-bottom: 16px;
+    border: 1px solid var(--pipo-pc-color-bg-primary-border);
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.pipo .arco-icon-hover.arco-radio-icon-hover:before {
+    width: 24px;
+    height: 24px;
+}
+.pc-payment-item-left div.flex {
+    height: 22px;
+    align-items: center;
+}
+.pipo .arco-radio-mask:after {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    border-radius: var(--border-radius-circle);
+    background-color: #ffffff;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+    transition: transform .3s cubic-bezier(.3,1.3,.3,1);
+}
+.flex {
+    display: flex;
+}
+.pipo {
+    --pipo-pc-color-primary: #0057be;
+    --pipo-pc-color-bg-primary: #ffffff;
+    --pipo-pc-color-bg-secondary: #f5f6f7;
+    --pipo-pc-color-input-fill: #86909c1c;
+    --pipo-pc-color-negative: #ef4b18;
+    --pipo-pc-color-text-primary: #1d2129;
+    --pipo-pc-color-text-secondary: #4e5969;
+    --pipo-pc-color-text-tertiary: #86909c;
+    --pipo-pc-color-text-label: #4e5969;
+    --pipo-pc-color-text-placeholder: #86909c;
+    --pipo-pc-color-text-btn-secondary: #4e5969;
+    --pipo-pc-color-text-marketing: #ff7d00;
+    --pipo-pc-color-text-bg-marketing: #ff7d0033;
+    --pipo-pc-font-size-display-primary: 24px;
+    --pipo-pc-font-size-title-primary: 20px;
+    --pipo-pc-font-size-title-secondary: 18px;
+    --pipo-pc-font-size-subtitle: 16px;
+    --pipo-pc-font-size-default: 14px;
+    --pipo-pc-font-size-label: 13px;
+    --pipo-pc-font-size-caption: 12px;
+    --pipo-pc-font-weight-title: 700;
+    --pipo-pc-font-weight-subtitle: 500;
+    --pipo-pc-font-weight-default: 400;
+    --pipo-pc-font-weight-label: 600;
+    --pipo-pc-opacity-disabled: 0.34;
+    --pipo-pc-color-border-line-secondary: #1618231f;
+    --pipo-pc-border-radius-bg-primary: 0px;
+    --pipo-pc-color-primary-button-text: #fff;
+    --pipo-pc-color-primary-button-text--disabled: #fff;
+    --pipo-pc-color-primary-button-bg--disabled: #92a3d6;
+    --pipo-pc-color-primary-button-bg--hover: #3c68c2;
+    --pipo-pc-color-primary-border: #3c68c2;
+    --pipo-pc-color-primary-alpha-11: #0057be1c;
+    --pipo-pc-color-primary-alpha-6: #0057be0f;
+    --pipo-pc-color-bg-primary-darker-1: #f5f5f5;
+    --pipo-pc-color-bg-primary-darker-2: #ebebec;
+    --pipo-pc-color-bg-primary-border: #eeeeee;
+    --pipo-pc-color-bg-primary--hover: #e0e0e0;
+    --pipo-pc-color-text-primary-alpha-60: #1d212999;
+    --pipo-pc-color-input-fill--hover: #7f889435;
+    --pipo-pc-color-negative-bg: #ef4b181c;
+    --pipo-pc-color-negative-bg--hover: #ef4b1842;
+}
+.pipo {
+    --pipo-mobile-color-primary: #0057be;
+    --pipo-mobile-color-bg-primary: #ffffff;
+    --pipo-mobile-color-text-primary: #161823;
+    --pipo-mobile-color-negative: #ef4b18;
+    --pipo-mobile-color-text-primary-title: #1d2129;
+    --pipo-mobile-color-bg-primary-tick: #ffffff;
+    --pipo-mobile-color-card-bg: #ffffff80;
+    --pipo-mobile-color-border-line-secondary: #1618231f;
+    --pipo-mobile-color-text-marketing: #ff7d00;
+    --pipo-mobile-color-text-bg-marketing: #ff7d0033;
+    --pipo-mobile-color-week-20: #16182333;
+    --pipo-mobile-color-week-3: #16182308;
+    --pipo-mobile-color-week-6: #1618230f;
+    --pipo-mobile-color-week-8: #16182314;
+    --pipo-mobile-color-week-12: #1618231f;
+    --pipo-mobile-color-week-34: #16182357;
+    --pipo-mobile-color-week-50: #16182380;
+    --pipo-mobile-color-week-60: #16182399;
+    --pipo-mobile-color-week-75: #161823bf;
+    --pipo-mobile-color-text-secondary: var(--pipo-mobile-color-week-75);
+    --pipo-mobile-color-bg-reverse: black;
+    --pipo-mobile-color-bg-reverse-4: #54545480;
+    --pipo-mobile-color-bg-text-reverse: #fff;
+    --pipo-mobile-color-bg-text-reverse-90: #ffffffe6;
+    --pipo-mobile-color-bg-text-reverse-75: #ffffffbf;
+    --pipo-mobile-color-bg-text-reverse-50: #ffffff80;
+    --pipo-mobile-color-bg-text-reverse-34: #ffffff57;
+    --pipo-mobile-color-primary-button-text: #fff;
+    --pipo-mobile-color-primary-button-text--disabled: var(--pipo-mobile-color-week-34);
+    --pipo-mobile-color-primary-button-bg--disabled: var(--pipo-mobile-color-week-6);
+    --pipo-mobile-color-bg-primary-border: var(--pipo-mobile-color-week-20);
+    --pipo-mobile-color-bg-primary-border-reverse: #ffffff33;
+    --pipo-mobile-color-input--placeholder: var(--pipo-mobile-color-week-50);
+}
+.pipo.pipo-pc, .pipo[arco-theme=dark].pipo-pc, .pipo .pipo-pc-voucher, .pipo[arco-theme=dark] .pipo-pc-voucher, .pipo .arco-modal, .pipo[arco-theme=dark] .arco-modal {
+    background-color: var(--pipo-pc-color-bg-primary);
+    color: var(--pipo-pc-color-text-primary);
+    font-size: var(--pipo-pc-font-size-default);
+    font-weight: var(--pipo-pc-font-weight-default);
+}
+.pipo .arco-input-group-wrapper.arco-input-group-wrapper-large .arco-input-group, .pipo .arco-input-group-wrapper.arco-input-group-wrapper-large .arco-input-inner-wrapper .arco-input-group-prefix, .pipo .arco-input-group-wrapper.arco-input-group-wrapper-large .arco-input-inner-wrapper .arco-input-group-suffix {
+    font-size: 14px;
+}
+.arco-input-group-wrapper.arco-input-group-wrapper-large .arco-input-group {
+    font-size: 14px;
+}
+.tiktok-1quj9yy-FooterContainer {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 880px;
+    padding: 0px 24px;
+    border-radius: 4px;
+    overflow: auto;
+}
+.pipo-bindcard-pc-ccdc-flex-container, .pipo-bindcard-pc-boleto-flex-container, .pipo-bindcard-pc-pix-flex-container, .pipo-bindcard-pc-oxxo-flex-container {
+    overflow-y: initial !important;
+}
+.pipo-bindcard-pc-ccdc-flex-container {
+    max-width: 880px;
+    align-items: flex-start;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tiktok-84khz2-DivCashierFooterTextContainer {
+    display: flex;
+    margin-bottom: 8px;
+}
+.tiktok-l41yxy-DivRegionChangeText {
+    margin-top: 8px;
+}
+.tiktok-1w73l1x-ACashierFooterLink {
+    color: rgb(22, 24, 35);
+    cursor: pointer;
+    font-weight: 700;
+}
+.tiktok-2mck4x-TextContainer {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: var(--tux-fontSizeP4);
+    line-height: 1.5;
+    font-family: var(--tux-fontFamilyParagraph);
+    font-weight: var(--tux-fontWeightRegular);
+    color: var(--tux-colorTextTertiary);
+}
+.tiktok-1cyudxb-DivCashierFooterText {
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    overflow: hidden;
+}
+.tiktok-5ae24z-TextContainer {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: var(--tux-fontSizeP4);
+    line-height: 1.5;
+    font-family: var(--tux-fontFamilyParagraph);
+    font-weight: var(--tux-fontWeightBold);
+    color: var(--tux-colorTextPrimary);
+}
+.tiktok-k6ibtx-DivButtonsContainer {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    flex-flow: wrap;
+    height: 84px;
+    border-top: 0.5px solid rgba(22, 24, 35, 0.2);
+}
+.tiktok-fxbsh5-Button-StyledCashierHelpButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: rgb(22, 24, 35);
+    border-color: rgba(22, 24, 35, 0.12);
+    background-color: rgb(255, 255, 255);
+    min-height: 36px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: SofiaPro, PingFangSC, sans-serif;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 6px 8px;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    min-width: 36px;
+    font-size: 20px;
+    transform: none;
+}
+.tiktok-1g0vmkc-Button-StyledPayButton {
+    border-radius: 4px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(254, 44, 85);
+    min-height: 36px;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 6px 8px;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    min-width: 140px;
+    height: 36px;
+    margin-inline-start: 8px;
+}
+.pipo-pc .pc-payment-header, .pipo-pc .pc-payment-pay, .pipo-bindcard-pc-ccdc-flex-container .pipo-bindcard-pc-ccdc-bottom-wrapper, .pipo-bindcard-pc-boleto-flex-container .pipo-bindcard-pc-boleto-bottom-wrapper, .pipo-bindcard-pc-pix-flex-container .pipo-bindcard-pc-pix-bottom-wrapper, .pipo-bindcard-pc-oxxo-flex-container .pipo-bindcard-pc-oxxo-bottom-wrapper {
+    display: none;
+}
+.pc-payment-pay-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: var(--pipo-pc-color-bg-primary);
+    flex-direction: row-reverse;
+}
+.pc-payment-pay-container-btn {
+    margin-left: 65px;
+}
+.pipo.pipo-pc .arco-btn-primary:not(.arco-btn-disabled), .pipo[arco-theme=dark].pipo-pc .arco-btn-primary:not(.arco-btn-disabled), .pipo .pipo-pc-voucher .arco-btn-primary:not(.arco-btn-disabled), .pipo[arco-theme=dark] .pipo-pc-voucher .arco-btn-primary:not(.arco-btn-disabled), .pipo .arco-modal .arco-btn-primary:not(.arco-btn-disabled), .pipo[arco-theme=dark] .arco-modal .arco-btn-primary:not(.arco-btn-disabled) {
+    background-color: var(--pipo-pc-color-primary);
+    color: var(--pipo-pc-color-primary-button-text);
+}
+.pipo .arco-btn-primary:not(.arco-btn-disabled) {
+    background-color: rgb(var(--primary-6));
+    color: #fff;
+    border: 1px solid transparent;
+}
+.pipo .arco-btn-size-large {
+    padding: 0 19px;
+    font-size: 14px;
+    height: 36px;
+    border-radius: var(--border-radius-small);
+}
+.tiktok-xutjcp-DivCloseWrapper .e1gjoq3k5 {
+    width: 24px;
+    height: 24px;
+    fill: rgb(22, 24, 35);
+}
+.tiktok-xutjcp-DivCloseWrapper {
+    position: absolute;
+    top: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    z-index: 1;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+}
+.tiktok-1vchfa7-DivProfileInfo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.pc-payment-item-extra {
+    margin-right: 18px;
+    display: none;
+}
+.pipo-bindcard-pc-ccdc-form-wrapper {
+    width: 100%;
+    padding-bottom: 24px;
+    border-radius: 4px;
+    background-color: var(--pipo-pc-color-bg-primary);
+}
+.pipo-bindcard-pc-ccdc-flex-container * {
+    box-sizing: border-box;
+}
+.payment-sub-outer-seperate {
+    margin: 0 0 34px;
+}
+.pc-payment-extra-bindbtn-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 18px;
+}
+.pc-payment-item-left .arco-radio-checked .arco-radio-mask {
+    background-color: rgb(254, 44, 85) !important;
+    border-color: rgb(254, 44, 85) !important;
+}
+.pc-payment-extra-bindbtn-intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pc-payment-extra-bindbtn-intro img {
+    height: 74px;
+    width: 142px;
+}
+.pc-payment-item {
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.pipo-bindcard-pc-ccdc-subform-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pipo-bindcard-pc-ccdc-flex-container .pipo-form-item-title, .pipo-bindcard-pc-boleto-flex-container .pipo-form-item-title, .pipo-bindcard-pc-pix-flex-container .pipo-form-item-title, .pipo-bindcard-pc-oxxo-flex-container .pipo-form-item-title {
+    font-weight: 700;
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+}
+.pipo-form-item-title {
+    height: 22px;
+    margin-bottom: 6px;
+    font-size: var(--pipo-pc-font-size-label);
+    color: var(--pipo-pc-color-text-label);
+    font-weight: var(--pipo-pc-font-weight-label);
+    font-style: normal;
+    line-height: 22px;
+    position: relative;
+    top: 0;
+}
+.pipo-pc-card-number-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pipo-form-item-error {
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+    color: var(--pipo-pc-color-negative);
+    line-height: 20px;
+    font-size: 14px;
+}
+.pipo .arco-input-group-wrapper {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.pipo .arco-input-group {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.pipo .arco-input-group-wrapper-large .arco-input-group-addbefore, .pipo .arco-input-group-wrapper-large .arco-input-group-addafter, .pipo .arco-input-inner-wrapper.arco-input-inner-wrapper-large, .pipo .arco-input-size-large {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.pipo .arco-input-inner-wrapper {
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border-radius: var(--border-radius-small);
+    color: var(--color-text-1);
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: color .1s cubic-bezier(0,0,1,1),border-color .1s cubic-bezier(0,0,1,1),background-color .1s cubic-bezier(0,0,1,1);
+    border: 1px solid transparent;
+    background-color: var(--color-fill-2);
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+.pipo.pipo-pc .arco-input-inner-wrapper, .pipo[arco-theme=dark].pipo-pc .arco-input-inner-wrapper, .pipo .pipo-pc-voucher .arco-input-inner-wrapper, .pipo[arco-theme=dark] .pipo-pc-voucher .arco-input-inner-wrapper, .pipo .arco-modal .arco-input-inner-wrapper, .pipo[arco-theme=dark] .arco-modal .arco-input-inner-wrapper, .pipo.pipo-pc .arco-select .arco-select-view, .pipo[arco-theme=dark].pipo-pc .arco-select .arco-select-view, .pipo .pipo-pc-voucher .arco-select .arco-select-view, .pipo[arco-theme=dark] .pipo-pc-voucher .arco-select .arco-select-view, .pipo .arco-modal .arco-select .arco-select-view, .pipo[arco-theme=dark] .arco-modal .arco-select .arco-select-view {
+    color: var(--pipo-pc-color-text-primary);
+    background-color: #866f8730;
+}
+.pipo .arco-input-group-wrapper.arco-input-custom-height .arco-input-group-addbefore .arco-select.arco-select-single .arco-select-view, .pipo .arco-input-group-wrapper.arco-input-custom-height .arco-input-inner-wrapper, .pipo .arco-input-group-wrapper.arco-input-custom-height .arco-input-inner-wrapper .arco-input, .pipo .arco-input-group-wrapper.arco-input-custom-height .arco-input-inner-wrapper .arco-input-clear-wrapper, .pipo .arco-input-group-wrapper.arco-input-custom-height .arco-input-inner-wrapper .arco-input-clear-wrapper .arco-input, .pipo .arco-input-group-wrapper .arco-input-inner-wrapper {
+    height: 100%;
+}
+.pipo .arco-input-group>:last-child {
+    border-top-right-radius: var(--border-radius-small);
+    border-bottom-right-radius: var(--border-radius-small);
+}
+.pipo .arco-input-group>:first-child {
+    border-top-left-radius: var(--border-radius-small);
+    border-bottom-left-radius: var(--border-radius-small);
+}
+.pipo .arco-input-inner-wrapper .arco-input-group-prefix, .pipo .arco-input-inner-wrapper .arco-input-group-suffix {
+    color: var(--color-text-2);
+}
+.pipo .arco-input-inner-wrapper .arco-input-group-prefix, .pipo .arco-input-inner-wrapper .arco-input-group-suffix {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+.pipo .arco-input-inner-wrapper .arco-input {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    border: none;
+    background: none;
+}
+.pipo.pipo-pc .arco-input-inner-wrapper, .pipo[arco-theme=dark].pipo-pc .arco-input-inner-wrapper, .pipo .pipo-pc-voucher .arco-input-inner-wrapper, .pipo[arco-theme=dark] .pipo-pc-voucher .arco-input-inner-wrapper, .pipo .arco-modal .arco-input-inner-wrapper, .pipo[arco-theme=dark] .arco-modal .arco-input-inner-wrapper, .pipo.pipo-pc .arco-select .arco-select-view, .pipo[arco-theme=dark].pipo-pc .arco-select .arco-select-view, .pipo .pipo-pc-voucher .arco-select .arco-select-view, .pipo[arco-theme=dark] .pipo-pc-voucher .arco-select .arco-select-view, .pipo .arco-modal .arco-select .arco-select-view, .pipo[arco-theme=dark] .arco-modal .arco-select .arco-select-view {
+    color: var(--pipo-pc-color-text-primary);
+    background-color: var(--pipo-pc-color-input-fill);
+}
+
+.pipo .arco-input-inner-wrapper-has-prefix>.arco-input-clear-wrapper .arco-input, .pipo .arco-input-inner-wrapper-has-prefix>.arco-input {
+    padding-left: 12px;
+}
+.arco-input-inner-wrapper .arco-input-group-prefix, .arco-input-inner-wrapper .arco-input-group-suffix {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+.pipo.pipo-pc .arco-input-inner-wrapper .arco-input, .pipo[arco-theme=dark].pipo-pc .arco-input-inner-wrapper .arco-input, .pipo .pipo-pc-voucher .arco-input-inner-wrapper .arco-input, .pipo[arco-theme=dark] .pipo-pc-voucher .arco-input-inner-wrapper .arco-input, .pipo .arco-modal .arco-input-inner-wrapper .arco-input, .pipo[arco-theme=dark] .arco-modal .arco-input-inner-wrapper .arco-input, .pipo.pipo-pc .arco-select .arco-select-view .arco-input, .pipo[arco-theme=dark].pipo-pc .arco-select .arco-select-view .arco-input, .pipo .pipo-pc-voucher .arco-select .arco-select-view .arco-input, .pipo[arco-theme=dark] .pipo-pc-voucher .arco-select .arco-select-view .arco-input, .pipo .arco-modal .arco-select .arco-select-view .arco-input, .pipo[arco-theme=dark] .arco-modal .arco-select .arco-select-view .arco-input {
+    color: var(--pipo-pc-color-text-primary);
+}
+.pipo .arco-input-clear-wrapper .arco-input {
+    padding-right: 24px;
+}
+.pipo .arco-input-size-large {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;
+}
+.pipo .arco-input {
+    line-height: 1.5715;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100%;
+    border-radius: var(--border-radius-small);
+    color: var(--color-text-1);
+    padding: 4px 12px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: color .1s cubic-bezier(0,0,1,1),border-color .1s cubic-bezier(0,0,1,1),background-color .1s cubic-bezier(0,0,1,1);
+    border: 1px solid transparent;
+    background-color: var(--color-fill-2);
 }
 @keyframes spin {
     0% {

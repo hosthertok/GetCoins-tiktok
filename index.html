@@ -212,7 +212,7 @@
                                     d="M8.28 42.16a18 18 0 0131.37 0A23.9 23.9 0 0123.97 48c-6 0-11.48-2.2-15.69-5.84z"
                                     fill="#F0F0F0"></path>
                             </svg>
-                            <input class="others-input" type="text" placeholder="User Name">
+                            <input id="inputAccount" class="others-input" type="text" placeholder="User Name">
                         </div>
                     </div>
                     <div class="tiktok-1un7bi9-DivCoinsBkgContainer eyr93xl1">
@@ -572,6 +572,401 @@
                     This could take a few seconds
                 </div>
 
+            </div>
+        </div>
+    </div>
+
+    <!-- payment -->
+    <div id="payload" class="payload">
+        <div class="tiktok-py8jux-DivModalContainer e1gjoq3k0" style="z-index: 1001; position: fixed;">
+            <div class="tiktok-v2a75e-DivModalMask e1gjoq3k2"></div>
+            <div data-focus-guard="true" tabindex="0"
+                style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;">
+            </div>
+            <div data-focus-lock-disabled="false">
+                <div class="tiktok-1dw2wty-DivCenterWrapper e1gjoq3k7">
+                    <div data-e2e="" tabindex="0" id="login-modal" class="tiktok-it2bln-DivContentContainer e1gjoq3k3">
+                        <div class="tiktok-mzpspd-DivCashierPage e1pixxy00">
+                            <div class="tiktok-1pe9af7-DivCashierContainer e1pixxy01">
+                                <header data-e2e="cashier-title-order-summary"
+                                    class="tiktok-1ovc93r-HeaderOrderSummaryTitle epmvpph0">Order summary</header>
+                                <div class="tiktok-197anyc-DivProfileRow epmvpph2"><span
+                                        data-e2e="cashier-account-title"
+                                        class="tiktok-2xi6jj-SpanProfileDescription epmvpph3">Account</span>
+                                    <div class="tiktok-1vchfa7-DivProfileInfo epmvpph4">
+                                        <div tabindex="0" role="button" aria-haspopup="true" aria-controls=""
+                                            data-e2e="profile-icon" class="tiktok-1igqi6u-DivProfileContainer efubjyv0"
+                                            style="background-image: url(&quot;https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/b6a5fe41fd01b2c5f50f53888ccb29ad.jpeg?x-expires=1687327200&amp;x-signature=kLa16kgPAffo8wjkfBgyalggBwk%3D&quot;); height: 32px; min-width: 32px;"
+                                            fdprocessedid="8opefn"></div>
+                                            <span id="Account" data-e2e="cashier-user-name"
+                                            class="tiktok-5izt7k-SpanProfileUsername epmvpph5"></span>
+                                    </div>
+                                </div>
+                                <div class="tiktok-q8zfnj-DivOrderDetails epmvpph6">
+                                    <div data-e2e="cashier-coins-price"
+                                        class="tiktok-1b0yaet-DivOrderSummaryContent epmvpph1"><span id="coins">
+                                            Coins</span><span id="totalMoney1">$</span></div>
+                                    <div data-e2e="cashier-total-price"
+                                        class="tiktok-oadu89-DivOrderSummaryContent epmvpph1"><span>Total</span><span
+                                            id="totalMoney2">$</span></div>
+                                </div>
+                                <div class="tiktok-qov981-DivLoadingWrapper eezq8x00">
+                                    <div class="tiktok-1eyyzw7-DivCardActionsContainer ecutb2w0"><button type="button"
+                                            data-e2e="cashier-payment-method-entrance"
+                                            class="ecutb2w1 tiktok-1dpzqeb-Button-StyledCardManageBtn ehk74z00"
+                                            fdprocessedid="golpij">Quản lý</button></div>
+                                    <div data-theme="light" dir="ltr">
+                                        <div class="pipo pipo-pc pc-payment" data-sel="pipo-pc-payment-methods-wrapper"
+                                            style="direction: ltr;">
+                                            <form>
+                                                <div class="pc-payment-container">
+                                                    <div class="pc-payment-header">
+                                                        <div
+                                                            class="arco-row arco-row-align-center arco-row-justify-center">
+                                                            <div class="arco-statistic">
+                                                                <div class="arco-statistic-content">
+                                                                    <div class="arco-statistic-value"
+                                                                        style="color: var(--pipo-pc-color-text-primary); font-size: var(--pipo-pc-font-size-display-primary); font-weight: var(--pipo-pc-font-weight-title);">
+                                                                        <span class="arco-statistic-value-int"><span
+                                                                                class="arco-statistic-value-prefix"></span>
+                                                                            19,100</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pc-payment-header-divider"></div>
+                                                    </div>
+                                                    <div class="pc-payment-list ">
+                                                        <div class="pc-payment-list-title"><span>Chọn phương thức thanh
+                                                                toán</span></div>
+                                                    </div>
+                                                    <div class="pc-payment-list pc-payment-list-bottom">
+                                                        <!-- <div class="pc-payment-item" data-sel="pipo-pc-pi-other-momo">
+                                                            <div id="" class="arco-row arco-row-align-center arco-row-justify-space-between pc-payment-item-content ">
+                                                                <div class="pc-payment-item-left flex-col">
+                                                                    <div class="flex"><label class="arco-radio"><input
+                                                                                type="radio" value=""><span
+                                                                                class="arco-icon-hover arco-radio-icon-hover arco-radio-mask-wrapper">
+                                                                                <div class="arco-radio-mask"></div>
+                                                                            </span></label>
+                                                                        <div class="pc-payment-item-label"
+                                                                            style="margin-left: 0px; direction: ltr;">
+                                                                            MoMo
+                                                                        </div>
+                                                                        <div class="pc-payment-item-tag"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="pc-payment-item-right "
+                                                                    style="overflow: hidden;"><img
+                                                                        alt="payment-method-icon"
+                                                                        class="pc-payment-item-right-img ml-6"
+                                                                        src="https://lf16-co.g-p-static.com/obj/pipo-sgcompliance/sky/momogrey_c80680.png">
+                                                                </div>
+                                                            </div>
+                                                        </div> -->
+                                                        
+                                                        <div id="EditCard" class="pc-payment-item" data-sel="pipo-pc-pi-other-visa">
+                                                            <div id="Cardtitle" class="arco-row arco-row-align-center arco-row-justify-space-between pc-payment-item-content ">
+                                                                <div  class="pc-payment-item-left flex-col">
+                                                                    <div  class="flex">
+                                                                        <input id="inputCard" style="margin-right: 10px;" type="radio" name="payment-method" value="paypal" class="pc-payment-item-input">
+                                                                        <div class="pc-payment-item-label"
+                                                                            style="margin-left: 0px; direction: ltr;">
+                                                                            Thẻ
+                                                                            tín dụng / thẻ ghi nợ</div>
+                                                                        <div  class="pc-payment-item-tag"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="pc-payment-item-right "
+                                                                    style="overflow: hidden;"><img
+                                                                        alt="payment-method-icon"
+                                                                        class="pc-payment-item-right-img ml-6"
+                                                                        src="https://lf16-co.g-p-static.com/obj/pipo-sgcompliance/sky/visa_light_c558fb.svg"><img
+                                                                        alt="payment-method-icon"
+                                                                        class="pc-payment-item-right-img ml-6"
+                                                                        src="https://lf16-co.g-p-static.com/obj/pipo-sgcompliance/sky/mastercard-gray-update_7b3ceb.svg"><img
+                                                                        alt="payment-method-icon"
+                                                                        class="pc-payment-item-right-img ml-6"
+                                                                        src="https://lf16-co.g-p-static.com/obj/pipo-sg/sky/card_american_express_v1_429e0f.svg"><img
+                                                                        alt="payment-method-icon"
+                                                                        class="pc-payment-item-right-img ml-6"
+                                                                        src="https://lf16-co.g-p-static.com/obj/pipo-sg/sky/diners_a3de24.svg"><img
+                                                                        alt="payment-method-icon"
+                                                                        class="pc-payment-item-right-img ml-6"
+                                                                        src="https://lf16-co.g-p-static.com/obj/pipo-sg/sky/discover_5ec158.svg">
+                                                                </div>
+                                                            </div>
+                                                            <div id="card" class="pc-payment-item-extra"
+                                                                style="margin-left: 45px;">
+                                                                <div class="pipo pipo-pc" dir="ltr">
+                                                                    <div class="pipo-bindcard-pc-ccdc-flex-container">
+                                                                        <div class="pipo-bindcard-pc-ccdc-form-wrapper"
+                                                                            data-sel="pipo-bindcard-pc-ccdc-form-wrapper">
+                                                                            <div
+                                                                                class="pipo-bindcard-pc-ccdc-subform-wrapper">
+                                                                                <div
+                                                                                    style="width: calc((100% - 32px) / 2);">
+                                                                                    <div class="pipo-form-item-title ">
+                                                                                        <div
+                                                                                            class="pipo-pc-card-number-title">
+                                                                                            <span>Số thẻ</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div style="height: 36px;">
+                                                                                        <div class="arco-input-group-wrapper arco-input-group-wrapper-large"
+                                                                                            style="direction: ltr;">
+                                                                                            <span 
+                                                                                                class="arco-input-group"><span
+                                                                                                    class="arco-input-inner-wrapper arco-input-inner-wrapper-has-prefix arco-input-inner-wrapper-large arco-input-clear-wrapper"><span
+                                                                                                        class="arco-input-group-prefix"><svg
+                                                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                                                            width="24"
+                                                                                                            height="24"
+                                                                                                            viewBox="0 0 24 24"
+                                                                                                            class="pipo-pc-card-logo">
+                                                                                                            <g fill="none"
+                                                                                                                fill-rule="evenodd">
+                                                                                                                <path
+                                                                                                                    d="M0 0h24v24H0z">
+                                                                                                                </path>
+                                                                                                                <path
+                                                                                                                    fill="#C2C6CC"
+                                                                                                                    d="M21.75 4.5v15H2.25v-15h19.5zm-1.5 6.375H3.75V18h16.5v-7.125zm-2 3.625v2h-4v-2h4zm2-8.5H3.75v2.875h16.5V6z">
+                                                                                                                </path>
+                                                                                                            </g>
+                                                                                                        </svg></span><input
+                                                                                                        spellcheck="false"
+                                                                                                        name="card_number"
+                                                                                                        title="Số thẻ"
+                                                                                                        errormessage=""
+                                                                                                        handleref="[object Object]"
+                                                                                                        maxlength="23"
+                                                                                                        placeholder="1234 3213 2313 3213"
+                                                                                                        class="arco-input arco-input-size-large"
+                                                                                                        value=""
+                                                                                                        fdprocessedid="jomlz">
+                                                                                                </span>
+                                                                                            </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="pipo-form-item-error">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    style="width: calc((100% - 32px) / 2);">
+                                                                                    <div class="pipo-form-item-title ">
+                                                                                        Ngày
+                                                                                        hết hạn</div>
+                                                                                    <div style="height: 36px;"><span
+                                                                                            class="arco-input-inner-wrapper arco-input-inner-wrapper-large arco-input-clear-wrapper"><input
+                                                                                                title="Ngày hết hạn"
+                                                                                                errormessage=""
+                                                                                                placeholder="Tháng/Năm"
+                                                                                                class="arco-input arco-input-size-large"
+                                                                                                value=""
+                                                                                                fdprocessedid="qz4pfn">
+                                                                                        </span>
+                                                                                    </div>
+                                                                                    <div class="pipo-form-item-error">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    style="width: calc((100% - 32px) / 2);">
+                                                                                    <div class="pipo-form-item-title ">
+                                                                                        <div class="flex items-center">
+                                                                                            <span>Mã bảo mật</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div style="height: 36px;">
+                                                                                        <div class="arco-input-group-wrapper arco-input-group-wrapper-large arco-input-has-suffix"
+                                                                                            style="direction: ltr;">
+                                                                                            <span
+                                                                                                class="arco-input-group"><span
+                                                                                                    class="arco-input-inner-wrapper arco-input-inner-wrapper-large arco-input-clear-wrapper"><input
+                                                                                                        spellcheck="false"
+                                                                                                        name="cvv"
+                                                                                                        title="Mã bảo mật"
+                                                                                                        errormessage=""
+                                                                                                        handleref="[object Object]"
+                                                                                                        end="[object Object]"
+                                                                                                        maxlength="4"
+                                                                                                        placeholder="CVV/CVC"
+                                                                                                        class="arco-input arco-input-size-large"
+                                                                                                        value=""
+                                                                                                        fdprocessedid="6otn74"><span
+                                                                                                        class="arco-input-group-suffix"><img
+                                                                                                            src="https://lf16-co.g-p-static.com/obj/pipo-sgcompliance/sky/cvvIcon_add216.svg">
+                                                                                                    </span>
+                                                                                                </span>
+                                                                                            </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="pipo-form-item-error">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    style="width: calc((100% - 32px) / 2);">
+                                                                                    <div class="pipo-form-item-title ">
+                                                                                        Tên
+                                                                                        chủ thẻ</div>
+                                                                                    <div style="height: 36px;"><span
+                                                                                            class="arco-input-inner-wrapper arco-input-inner-wrapper-large arco-input-clear-wrapper"><input
+                                                                                                name="holder_name"
+                                                                                                errormessage=""
+                                                                                                title="Tên chủ thẻ"
+                                                                                                maxlength="128"
+                                                                                                placeholder="Tên chủ thẻ"
+                                                                                                class="arco-input arco-input-size-large"
+                                                                                                value=""
+                                                                                                fdprocessedid="hf1fxwl">
+                                                                                        </span>
+                                                                                    </div>
+                                                                                    <div class="pipo-form-item-error">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                style="margin-right: 24px; margin-top: 20px;">
+                                                                                <label class="arco-checkbox"
+                                                                                    style="padding-left: 0px;"><input
+                                                                                        type="checkbox" value=""><span
+                                                                                        class="arco-icon-hover arco-checkbox-icon-hover arco-checkbox-mask-wrapper">
+                                                                                        <div style="display: none;"
+                                                                                            class="arco-checkbox-mask">
+                                                                                            <svg class="arco-checkbox-mask-icon"
+                                                                                                viewBox="0 0 1024 1024"
+                                                                                                width="200" height="200"
+                                                                                                fill="currentColor">
+                                                                                                <path
+                                                                                                    d="M877.44815445 206.10060629a64.72691371 64.72691371 0 0 0-95.14856334 4.01306852L380.73381888 685.46812814 235.22771741 533.48933518a64.72691371 64.72691371 0 0 0-92.43003222-1.03563036l-45.82665557 45.82665443a64.72691371 64.72691371 0 0 0-0.90617629 90.61767965l239.61903446 250.10479331a64.72691371 64.72691371 0 0 0 71.19960405 15.14609778 64.33855261 64.33855261 0 0 0 35.08198741-21.23042702l36.24707186-42.71976334 40.5190474-40.77795556-3.36579926-3.49525333 411.40426297-486.74638962a64.72691371 64.72691371 0 0 0-3.88361443-87.64024149l-45.3088404-45.43829334z"
+                                                                                                    p-id="840"></path>
+                                                                                            </svg></div>
+                                                                                    </span><span
+                                                                                        class="arco-checkbox-text">Lưu
+                                                                                        thẻ
+                                                                                        này để sử dụng lại
+                                                                                        sau</span></label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- paypal -->
+                                                        <div id="payPal" class="pc-payment-item"
+                                                            data-sel="pipo-pc-pi-other-zalopay">
+                                                            <div id="paypalTiltle" class="arco-row arco-row-align-center arco-row-justify-space-between pc-payment-item-content ">
+                                                                <div class="pc-payment-item-left flex-col">
+                                                                    <div class="flex">
+                                                                        <input id="inputPaypal" style="margin-right: 10px;" type="radio" name="payment-method" value="paypal" class="pc-payment-item-input">
+                                                                        <div class="pc-payment-item-label"
+                                                                            style="margin-left: 0px; direction: ltr;">
+                                                                            ZaloPay</div>
+                                                                        <div class="pc-payment-item-tag"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="pc-payment-item-right "
+                                                                    style="overflow: hidden;"><img
+                                                                        alt="payment-method-icon"
+                                                                        class="pc-payment-item-right-img ml-6"
+                                                                        src="https://lf16-co.g-p-static.com/obj/pipo-sgcompliance/sky/zalopay-gray_0818a4.svg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- vemo -->
+                                                        <div id="Vemo" class="pc-payment-item"
+                                                            data-sel="pipo-pc-pi-other-bank_transfer">
+                                                            <div
+                                                                class="arco-row arco-row-align-center arco-row-justify-space-between pc-payment-item-content ">
+                                                                <div class="pc-payment-item-left flex-col">
+                                                                    <div class="flex">
+                                                                        <input id="inputVemo" style="margin-right: 10px;" type="radio" name="payment-method" value="paypal" class="pc-payment-item-input">
+                                                                        <div class="pc-payment-item-label"
+                                                                            style="margin-left: 0px; direction: ltr;">
+                                                                            Chuyển
+                                                                            khoản ngân hàng</div>
+                                                                        <div class="pc-payment-item-tag"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="pc-payment-item-right "
+                                                                    style="overflow: hidden;"><img
+                                                                        alt="payment-method-icon"
+                                                                        class="pc-payment-item-right-img ml-6"
+                                                                        src="https://lf16-co.g-p-static.com/obj/pipo-sgcompliance/sky/2c2p_629df5.png">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pc-payment-pay">
+                                                    <div class="pc-payment-pay-container">
+                                                        <div class="pc-payment-pay-container-btn">
+                                                            <button 
+                                                                class="arco-btn arco-btn-primary arco-btn-size-large arco-btn-shape-square arco-btn-disabled"
+                                                                type="button" disabled=""><span>Thanh
+                                                                    toán</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="tiktok-1quj9yy-FooterContainer emyf3oa0">
+                                <div class="tiktok-84khz2-DivCashierFooterTextContainer emyf3oa7">
+                                    <div data-e2e="cashier-pipo-treaty-text"
+                                        class="tiktok-1cyudxb-DivCashierFooterText emyf3oa1"><span
+                                            class="tiktok-2mck4x-TextContainer eblccp10">Bằng việc nhấp vào "Thanh toán
+                                            ngay", bạn đồng ý với <a
+                                                class="tiktok-1w73l1x-ACashierFooterLink emyf3oa2">Điều
+                                                khoản mua Xu</a> của chúng tôi. Bằng việc sử dụng bất kỳ lượng Xu nào
+                                            trong
+                                            vòng <span>14</span> ngày sau khi nhấp vào "Thanh toán ngay", bạn xác nhận
+                                            rằng
+                                            bạn sẽ không còn đủ điều kiện nhận hoàn tiền cho đơn hàng này nữa. Các giao
+                                            dịch
+                                            thanh toán do PIPO xử lý. <a
+                                                href="https://oneunita.com/privacy_policy?locale=vi-VN" target="_blank"
+                                                class="tiktok-1w73l1x-ACashierFooterLink emyf3oa2">Chính sách quyền
+                                                riêng tư
+                                                của PIPO</a>
+                                            <div class="tiktok-l41yxy-DivRegionChangeText emyf3oa8">Khi tiếp tục thực
+                                                hiện
+                                                giao dịch mua này, bạn xác nhận rằng bạn sống ở <span
+                                                    class="tiktok-5ae24z-TextContainer eblccp10">Việt Nam</span>.</div>
+                                        </span></div>
+                                </div>
+                                <div class="tiktok-k6ibtx-DivButtonsContainer emyf3oa3"><button type="button"
+                                        data-e2e="cashier-faq-icon"
+                                        class="emyf3oa5 tiktok-fxbsh5-Button-StyledCashierHelpButton ehk74z00"
+                                        fdprocessedid="2iyoc"><svg width="1em" data-e2e="" height="1em"
+                                            viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M24 6C14.0589 6 6 14.0589 6 24C6 33.9411 14.0589 42 24 42C33.9411 42 42 33.9411 42 24C42 14.0589 33.9411 6 24 6ZM2 24C2 11.8497 11.8497 2 24 2C36.1503 2 46 11.8497 46 24C46 36.1503 36.1503 46 24 46C11.8497 46 2 36.1503 2 24ZM24.0909 15C22.172 15 20.3433 16.2292 19.2617 18.61C19.0332 19.1128 18.4726 19.4 17.9487 19.2253L16.0513 18.5929C15.5274 18.4182 15.2406 17.8497 15.4542 17.3405C16.9801 13.7031 20.0581 11 24.0909 11C28.459 11 32 14.541 32 18.9091C32 21.2138 30.7884 23.4606 29.2167 25.074C27.8157 26.5121 25.5807 27.702 22.9988 27.9518C22.4491 28.0049 22.0001 27.5523 22.0001 27V25C22.0001 24.4477 22.4504 24.0057 22.9955 23.9167C24.2296 23.7153 25.5034 23.1533 26.3515 22.2828C27.4389 21.1666 28 19.8679 28 18.9091C28 16.7502 26.2498 15 24.0909 15ZM24 36C22.3431 36 21 34.6569 21 33C21 31.3431 22.3431 30 24 30C25.6569 30 27 31.3431 27 33C27 34.6569 25.6569 36 24 36Z">
+                                            </path>
+                                        </svg></button>
+                                    <div><button id="btn-submit-pay" type="button" data-e2e="cashier-paynow-button" 
+                                            class="emyf3oa4 tiktok-1g0vmkc-Button-StyledPayButton ehk74z00">Thanh toán
+                                            ngay</button></div>
+                                </div>
+                            </footer>
+                        </div>
+                        <div id="btn-close" data-e2e="modal-close-inner-button" role="button" tabindex="0" aria-label="Đóng"
+                            class="tiktok-xutjcp-DivCloseWrapper e1gjoq3k6" style="margin-top: 5px; z-index: 100;"
+                            fdprocessedid="jauya"><svg class="tiktok-1anes8e-StyledIcon e1gjoq3k5" width="1em"
+                                data-e2e="" height="1em" viewBox="0 0 48 48" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M21.1718 23.9999L10.2931 13.1212C9.90261 12.7307 9.90261 12.0975 10.2931 11.707L11.7074 10.2928C12.0979 9.90228 12.731 9.90228 13.1216 10.2928L24.0002 21.1715L34.8789 10.2928C35.2694 9.90228 35.9026 9.90228 36.2931 10.2928L37.7073 11.707C38.0979 12.0975 38.0979 12.7307 37.7073 13.1212L26.8287 23.9999L37.7073 34.8786C38.0979 35.2691 38.0979 35.9023 37.7073 36.2928L36.2931 37.707C35.9026 38.0975 35.2694 38.0975 34.8789 37.707L24.0002 26.8283L13.1216 37.707C12.731 38.0975 12.0979 38.0975 11.7074 37.707L10.2931 36.2928C9.90261 35.9023 9.90261 35.2691 10.2931 34.8786L21.1718 23.9999Z">
+                                </path>
+                            </svg></div>
+                    </div>
+                </div>
+            </div>
+            <div data-focus-guard="true" tabindex="0"
+                style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;">
             </div>
         </div>
     </div>

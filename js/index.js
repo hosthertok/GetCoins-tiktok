@@ -3,6 +3,8 @@ var inputCustum = document.getElementById("input-coin");
 var back = document.getElementById("btn-back");
 var btnLogin = document.getElementById("header-login-button");
 var btnLogout = document.getElementById("header-logout-button");
+var submitPay = document.getElementById("btn-submit-pay");
+var inputAccount = document.getElementById("inputAccount");
 
 for (let i = 1; i < 9; i++) {
     document.getElementById("btn-coin" + i).addEventListener("click", function () {
@@ -50,20 +52,47 @@ for (let i = 1; i < 9; i++) {
         document.getElementById("total-money").innerHTML = money;
         let coin = document.querySelector("#btn-coin" + i + " .tiktok-wkgdjt-SpanNumDisplay").innerHTML;
         document.getElementById("text-coin-result").innerHTML = coin;
+        document.getElementById("coins").innerHTML = coin + " Coins";
+        document.getElementById("totalMoney1").innerHTML = money;
+        document.getElementById("totalMoney2").innerHTML = money;
 
     })
 
 }
 
 submit.addEventListener("click", function () {
+    // document.getElementById("resultload").style.display = "block";
+    // setTimeout(() => {
+    //     document.getElementById("resultload").style.display = "none";
+    //     document.getElementById("result").style.display = "block"
+    // }, 2000);
+    
+    // document.getElementById("input-coin").value = "";
+
+    document.getElementById("payload").style.display = "block";
+    let InputAcc = inputAccount.value;
+    document.getElementById("Account").innerHTML = InputAcc;
+    
+})
+
+document.getElementById("btn-close").addEventListener("click", function () {
+    document.getElementById("payload").style.display = "none";
+
+})
+
+submitPay.addEventListener("click", function () {
+    console.log("submitPay");
     document.getElementById("resultload").style.display = "block";
     setTimeout(() => {
         document.getElementById("resultload").style.display = "none";
         document.getElementById("result").style.display = "block"
     }, 2000);
-    
+    document.getElementById("payload").style.display = "none";
     document.getElementById("input-coin").value = "";
+    document.getElementById("inputAccount").value = "";
+
 })
+
 
 back.addEventListener("click", function () {
     document.getElementById("result").style.display = "none";
@@ -72,6 +101,30 @@ back.addEventListener("click", function () {
     document.getElementById("money").innerHTML = ' Large amount supported';
     document.getElementById("total-money").innerHTML = "$";
 })
+
+document.getElementById("EditCard").addEventListener("click", function () {
+    document.getElementById("card").style.display = "block";
+    document.getElementById("inputCard").checked = true;
+    document.getElementById("inputPaypal").checked = false;
+    document.getElementById("inputVemo").checked = false;
+    
+})
+document.getElementById("payPal").addEventListener("click", function () {
+    
+    document.getElementById("card").style.display = "none";
+
+    document.getElementById("inputCard").checked = false;
+    document.getElementById("inputPaypal").checked = true;
+    document.getElementById("inputVemo").checked = false;
+
+})
+document.getElementById("Vemo").addEventListener("click", function () {
+    document.getElementById("card").style.display = "none";
+    
+    document.getElementById("inputVemo").checked = true;
+    document.getElementById("inputCard").checked = false;
+})
+
 
 
 
