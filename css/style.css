@@ -794,13 +794,14 @@ img, picture {
 }
 .pupupResult {
     height: 400px;
-    width: 100%;
+    width: 60%;
     background: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
+    border-radius: 10px;
 }
 .btn-back {
     border-radius: 4px;
@@ -841,13 +842,14 @@ img, picture {
 }
 .pupupResult1 {
     height: 300px;
-    width: 100%;
+    width: 60%;
     background: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
+    border-radius: 10px;
 }
 .thatbai-icon {
     width: 70px;
@@ -943,9 +945,9 @@ img, picture {
     font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
     margin: auto;
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    
     max-width: 880px;
-    min-width: 700px;
+    
     padding: 24px 24px 0px;
     border-radius: 4px;
     position: relative;
@@ -1358,7 +1360,7 @@ img, picture {
 .tiktok-1quj9yy-FooterContainer {
     margin: auto;
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    
     max-width: 880px;
     padding: 0px 24px;
     border-radius: 4px;
@@ -1414,7 +1416,7 @@ img, picture {
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: end;
-    justify-content: flex-end;
+    
     flex-flow: wrap;
     height: 84px;
     border-top: 0.5px solid rgba(22, 24, 35, 0.2);
@@ -1746,6 +1748,12 @@ img, picture {
     .tiktok-8nwn5k-InputElement{
         width: 100%;
     }
+    .tiktok-mzpspd-DivCashierPage {
+        width: 100%;
+        min-width: 680px;
+        background: rgb(255, 255, 255);
+        box-sizing: border-box;
+    }
 }
 @media (max-width: 724px){
     .tiktok-1x100u9-DivHeaderCenterContainer{
@@ -1754,6 +1762,13 @@ img, picture {
     .tiktok-z95cm-SpanContentContainer{
         display: none;
     }
+    .tiktok-mzpspd-DivCashierPage {
+        width: 100%;
+        min-width: 550px;
+        background: rgb(255, 255, 255);
+        box-sizing: border-box;
+    }
+
 }
 @media (max-width: 640px){
     .tiktok-1a7iizi-OlCoinsListContainer {
@@ -1770,6 +1785,18 @@ img, picture {
     }
     .tiktok-1qup28j-DivUpload{
         padding: 0;
+    }
+    .tiktok-mzpspd-DivCashierPage {
+        width: 100%;
+        min-width: 440px;
+        background: rgb(255, 255, 255);
+        box-sizing: border-box;
+    }
+    .pupupResult{
+        width: 90%;
+    }
+    .pupupResult1{
+        width: 90%;
     }
 }
 @media (max-width: 494px){
@@ -1807,6 +1834,21 @@ img, picture {
         height: 100%;
         border-radius: 8px;
         padding: 32px 0px;
+    }
+    .tiktok-mzpspd-DivCashierPage {
+        width: 100%;
+        min-width: 360px;
+        background: rgb(255, 255, 255);
+        box-sizing: border-box;
+    }
+    .pipo-pc.pc-payment .pc-payment-list-title {
+        margin-bottom: 14px;
+        padding-bottom: 0px;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgb(22, 24, 35);
+        font-weight: 700;
+        font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
     }
 }
 @media (max-width: 414px) {
